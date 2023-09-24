@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color:aqua;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .profile-info {
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="profile-image" src="kent.jpg" alt="My Profile Picture">
+        <div class="profile-info">
+            <h1>kentjasper P. Bagumbayan</h1>
+            <p>Student </p>
+            
+            <h2>Skills</h2>
+            <ul>
+                <li>Paintings</li>
+                <li>Designing</li>
+                
+                <li>React</li>
+                
+            </ul>
+            <h2>Hobbies</h2>
+            <p>In my free time, I enjoy hiking, playing online games, and reading science fiction novels.</p>
+            <h2>Education</h2>
+            <p>Elementary:Gil m.montilla elementary school</p>
+            <p>High School:Gil montilla national High school</p>
+        <p>Senior High:Gil montilla national high  school</p>
+            <h2>Future Goals</h2>
+            <p>My future goals include expanding my knowledge in full-stack development.</p>
+        </div>
+    </div>
+</body>
+</html>
